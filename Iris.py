@@ -103,7 +103,7 @@ conf_matrix = confusion_matrix(y_test, predictions)
 class_report = classification_report(y_test, predictions, target_names=iris.target_names)
 
 # Create a Streamlit app
-st.title('Iris Flower Classification with SVM')
+st.title('Iris Flower Classification Indiani SVM')
 st.write('Model training and evaluation results:')
 st.write(f'Training set size: {len(X_train)}')
 st.write(f'Testing set size: {len(X_test)}')
